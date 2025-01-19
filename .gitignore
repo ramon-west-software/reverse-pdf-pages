@@ -11,8 +11,8 @@ __pycache__/
 venv-reverse-pdf/
 
 # Ignore directories for PDF input and output
-pdf-input/
-reversed-output/
+pdf-input-directory/
+pdf-output-directory/
 
 # Ignore OS-specific files
 .DS_Store
