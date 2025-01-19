@@ -8,7 +8,7 @@ __pycache__/
 *.env
 
 # Ignore virtual environment directory
-reverse-pdf-env/
+venv-reverse-pdf/
 
 # Ignore directories for PDF input and output
 pdf-input/
