@@ -23,9 +23,9 @@ def reverse_pdf(input_pdf_path, output_pdf_path):
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    # Assuming no arguments provided, process all files in ./pdf-input
-    input_dir = './pdf-input'
-    output_dir = './reversed-output'
+    # Assuming no arguments provided, process all files in ./pdf-input-directory
+    input_dir = './pdf-input-directory'
+    output_dir = './pdf-output-directory'
     
     try:
         os.makedirs(output_dir, exist_ok=True)
