@@ -1,0 +1,19 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore virtual environment directory
+reverse-pdf-env/
+
+# Ignore directories for PDF input and output
+pdf-input/
+reversed-output/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
